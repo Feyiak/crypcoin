@@ -1,0 +1,717 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.top {
+  background-image: url(./images/heroIMG.jpg);
+  height: 100vh;
+  color: white;
+  background-size: cover;
+  background-position: center center;
+}
+/* -------------------HEADER-------------------- */
+header {
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 14px;
+}
+.headerSection {
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+.headerCol {
+  padding-left: 150px;
+}
+.loginsignup {
+  display: flex;
+  text-align: end;
+  justify-content: end;
+  font-size: 14px;
+  font-weight: 600;
+}
+.login {
+  border-right: 2px solid white;
+}
+/* -----------------NAV---------------------------- */
+nav {
+  position: fixed !important;
+  background-color: #01013f;
+}
+.navbar-toggler-icon{
+  background-image: none !important;
+  border: none !important;
+}
+.navbar {
+  padding-left: 150px;
+  width: 100%;
+  z-index: 3;
+  --bs-navbar-toggler-focus-width: 0rem;
+}
+.navbar-brand {
+  color: white;
+  font-size: 27px;
+  font-weight: 600;
+  background-color: transparent;
+}
+.navbar-brand:hover {
+  color: white;
+}
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: red;
+}
+.navbar-nav {
+  text-align: end !important;
+  --bs-nav-link-hover-color: white;
+}
+.nav-item {
+  padding-right: 20px;
+}
+.dropdown-item {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 16px, 20px !important;
+}
+.dropdown-item:hover {
+  color: red;
+  background-color: transparent;
+  padding-bottom: 10px;
+}
+.hero {
+  padding: 200px 200px;
+}
+.heroHeading {
+  font-size: 45px;
+  font-weight: 700;
+}
+.heroText {
+  font-size: 18px;
+  line-height: 32px;
+}
+.signupbtn {
+  border-radius: 25px/50px;
+  padding: 10px 20px;
+  color: red;
+  background-color: transparent;
+  border: 0.5px solid rgba(255, 255, 255, 0.2);
+  transition: all ease-in-out 1s;
+  font-size: 17px;
+}
+.signupbtn:hover {
+  background-color: red;
+  color: white;
+}
+/* -------------ABOUT US------------------ */
+.aboutusSection {
+  padding-left: 120px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.aboutusHeading {
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 39px;
+  font-style: normal;
+  padding-bottom: 20px;
+}
+.aboutusText {
+  color: rgb(102, 102, 102);
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  word-spacing: 1.3px;
+}
+.aboutusBtn {
+  background-color: red;
+  padding: 10px 30px;
+  color: white;
+  border-color: transparent;
+  border-radius: 15px;
+  font-weight: 600;
+  transition: all ease-in-out 1s;
+}
+.aboutusBtn:hover {
+  background-color: white;
+  color: red;
+  box-shadow: 0 0 0 2px rgb(104 96 181 / 10%) inset;
+}
+/* -------------------FEATURES------------------- */
+.featureSection {
+  background-color: #f6f6f6;
+  text-align: center;
+  padding-top: 100px;
+}
+.keyfeature {
+  font-size: 19px;
+  letter-spacing: 5px;
+  font-weight: 500;
+  color: red;
+  margin: 8px;
+}
+.amazingfeature {
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 39px;
+}
+.featureText {
+  padding-top: 15px;
+  font-size: 15px;
+  line-height: 28px;
+  color: rgb(102, 102, 102);
+}
+.features {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 25px;
+  grid-template-rows: auto auto;
+  padding: 20px 100px;
+}
+.feature {
+  text-align: center;
+  padding: 40px 30px;
+  background-color: white;
+}
+.featureHeading {
+  padding: 15px 0 10px 0;
+  font-weight: 700;
+  color: rgb(0, 0, 64);
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+.featureHeading:hover {
+  color: red;
+}
+.featureSubtext {
+  color: #666666;
+  font-size: 15px;
+}
+.featureLink {
+  color: #666666;
+  font-weight: 500;
+}
+.featureLink:hover {
+  color: red;
+}
+/* ---------------------INVESTMENT--------------- */
+.investmentSection {
+  padding: 70px 0px;
+}
+.investmentSectionText {
+  padding: 0 50px;
+}
+/* ---------------CRYPTOCURRENCIES LIST ------------*/
+.cryptocurrenciesSection {
+  background-color: #f6f6f6;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+.cryptocurrenciesSection button {
+  background-color: #000040;
+  color: white;
+}
+.cryptocurrenciesHeader {
+  text-align: center;
+  padding-bottom: 25px;
+}
+.tableHeading {
+  background-color: #d35400;
+  color: white;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  padding: 16px 0;
+}
+td,
+th {
+  padding: 10px 70px;
+}
+th {
+  font-size: 17px;
+  font-weight: 600;
+}
+td {
+  font-size: 16px;
+  font-weight: 400;
+  color: #26267d;
+}
+tr {
+  border-bottom: 3px solid #e7e7e7;
+}
+.Bitcoin {
+  padding: 10px 40px;
+}
+/* --------------------DISTRIBUTION--------------------------- */
+.distributionSection {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+.distributionHeader {
+  text-align: center;
+}
+.canvasjs-chart-toolbar {
+  display: none;
+}
+
+.canvasjs-chart-credit {
+  display: none;
+}
+/* ---------------------DOWNLOAD APP--------------------------- */
+.appSection {
+  padding-top: 100px;
+  background-color: #d35400;
+}
+.appHeading {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 1.3;
+  padding-bottom: 20px;
+}
+.appText {
+  line-height: 28px;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.appTextSection {
+  padding: 120px 0 0 100px;
+}
+.appButtons {
+  gap: 20px;
+}
+.appButtons button {
+  padding: 10px 30px;
+  background-color: #1d1d56;
+  color: white;
+  border-color: transparent;
+  border-radius: 5px;
+  transition: all ease-in-out 1s;
+}
+.appButtons button:hover {
+  color: #1d1d56;
+  background-color: white;
+}
+.getin {
+  font-weight: 700;
+}
+.appName {
+  font-size: 18px;
+  font-weight: 700;
+}
+/* ------------------INVESTORS------------ */
+.investorSection {
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+.investors {
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+  padding-top: 40px;
+}
+.investor {
+  background-color: #000040;
+}
+.investorIMG {
+  width: 90%;
+  text-align: center;
+  justify-content: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 0;
+}
+.investorText {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.investorName {
+  font-weight: 700;
+  font-size: 25px;
+}
+.investorPosition {
+  font-size: 16px;
+  font-weight: 500;
+}
+.investorSocials {
+  padding-top: 20px;
+}
+.investorSocials .fa-brands {
+  background-color: #8080a0;
+  padding: 10px;
+  border-radius: 50%;
+  color: #404041;
+}
+/* --------------NUMBERS------------------ */
+.numbersSection {
+  padding: 70px 0;
+  background-color: #f1f8ff;
+}
+.numbers {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #f1f8ff;
+  gap: 30px;
+  padding: 0 80px;
+}
+.number {
+  background-color: white;
+  padding: 15px 0;
+}
+.numbericon {
+  color: #d35400;
+  border-radius: 50%;
+  padding: 15px;
+}
+.digit{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(102, 102, 102);
+    letter-spacing: 1px;
+}
+.numberSubTitle{
+    font-size: 18px;
+    font-weight: 600;
+}
+/* -----------------TESTIMONIAL----------------- */
+.testimonialSection{
+  padding-top: 100px;
+
+}
+.carousel-indicators{
+  height: auto;
+  width: 100%;
+  border-radius: 50%;
+  margin-left: 0;
+}
+.testimonialIndicator{
+ height: 20px !important;
+ width: 20px !important;
+ border-radius: 50% !important;
+ background-color: #d35400 !important;
+}
+.WrapperofTestimonial{
+  padding: 50px 50px;
+}
+.testimonialpartwrapper{
+  z-index: 2;
+  gap: 15px;
+}
+.testimonialWrapper{
+  gap: 23px;
+}
+.testimonialIMGsection{
+position: relative;
+}
+.testimonialIMG{
+  border-radius: 50%;
+  box-shadow: 2px 3px 6px -3px rgb(0 0 0 / 35%);
+  border: 5px solid white;
+}
+.testimonialPic::after{
+  content: "\f10d";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #d35400;
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top: 65px;
+  left: 0;
+}
+.testimonialPassage{
+  color: #666666;
+  line-height: 28px;
+}
+.testimonialName{
+  color: #d35400;
+  font-size: 18px;
+  font-weight: 700;
+}
+.testimonialTitle{
+  color: #666666;
+  font-size: 15px;
+}
+.fa-star{
+  color:#d35400;
+}
+
+/* --------------------------COMPANIES------------------------- */
+.companiesSection{
+background-color: #f1f8ff;
+padding: 100px 0;
+}
+/* --------------------FAQ----------------------------------- --*/
+.FAQsection{
+  padding: 100px 0;
+}
+.FAQDropdown{
+  color: white !important;
+  background-color: #d35400 !important;
+  width: 100%;
+  height: 50px;
+  border-radius: 0;
+}
+
+.faqQuestion{
+  font-weight: 700;
+}
+.faqAnswerWrapper{
+  background-color: #f9faff  ;
+  padding: 10px 10px;
+}
+.faqAnswer{
+  color: #666666;
+  font-size: 14px;
+}
+.dropdown-toggle::after {
+  text-align: right !important;
+}
+.FAQs{
+  padding: 150px 0 0 100px;
+}
+.FAQ{
+  padding-bottom: 15px;
+  
+}
+/* ------------------GET IN TOUCH-------------------------- */
+.getintouchSection{
+  background-color: #f6f6f6;
+  padding: 100px;
+}
+
+.yourName{
+  width: 636px;
+  height: 45px;
+  background-color: #f1f8ff ;
+  box-shadow: 0 0px 1px rgb(19 19 19);
+  border: 0;
+  padding-left: 20px;
+
+
+}
+.yourEmail{
+ width: 636px; 
+ height: 45px;
+ background-color: #f1f8ff ;
+ box-shadow: 0 0px 1px rgb(19 19 19);
+  border: 0;
+   padding-left: 20px;
+
+}
+.yourMessage{
+  background-color: #f1f8ff ;
+  box-shadow: 0 0px 1px rgb(19 19 19);
+  border: 0;
+    padding-left: 20px;
+  padding-top: 15px;
+ 
+
+ }
+ ::placeholder{
+  font-size:13px;
+  color: black;
+ 
+ }
+ .contactbtn{
+  background-color: #d35400;
+  width: 100%;
+  color: white;
+  border-color: transparent;
+  padding: 10px 0;
+  border-radius: 15px;
+  font-weight: 600;
+  transition: all ease-in-out 0.5s;
+
+ }
+ .contactbtn:hover{
+  background-color: #01013f;
+
+ }
+
+ /* --------------------------NEWSLETTER----------------- */
+ .newsletterSection{
+  background-color: #01013f;
+  padding: 100px ;
+  color: white;
+ }
+ .newsletterHeading{
+  font-weight: 700;
+  font-size: 20px;
+ }
+ .newsletterText{
+  font-size: 15px;
+  line-height: 28px;
+ }
+ .newslettercol1icon{
+  color: white;
+  background-color: #d35400;
+  border-radius: 50%;
+  padding: 12px;
+  transition: all ease-in-out 0.5s;
+
+ }
+ .newslettercol1icon:hover{
+  color: #d35400;
+  background-color: white;
+ }
+ .newsletterWrapper a{
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+ }
+ .newsletterWrapper a:hover{
+  color: #d35400;
+ }
+ .newsletterInput{
+  padding: 10px 0 10px 15px;
+  border-radius: 10px;
+ }
+ .subscribeBTN{
+  background-color: transparent;
+  color: #d35400;
+  padding: 10px;
+  border-radius: 10px;
+ box-shadow:  0 0 0 2px rgb(104 96 181 / 10%) inset;
+ border: none;
+ transition: all ease-in-out 0.5s;
+ }
+ .subscribeBTN:hover{
+  box-shadow: 0 0 0 1px #6860b5 inset, 0 0 15px #6860b5;
+  color: white;
+  background-color: #d35400;
+ }
+ /* ----------------FOOTER------------------------ */
+ footer{
+  background-color: #66668c;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+  font-weight: 500;
+ }
+@media only screen and (max-width: 700px) {
+  body{
+    text-align: center !important;
+  }
+  header{
+    display: none;
+  }
+  .aboutusIMG{
+    width: 100% !important;
+    height: auto !important;
+  }
+  .features{
+    grid-template-columns: auto;
+
+  }
+  iframe{
+    width: 100% !important;
+  }
+  .tokenIMG{
+    width: 100% !important;
+  }
+  .appTextSection{
+    padding: 0;
+  }
+  .numbers{
+    grid-template-columns: auto;
+  }
+  .FAQIMG{
+    width: 100%;
+    height: auto;
+  }
+  .getintouchSection{
+    padding: 100px 0;
+  }
+  .yourName{
+    width: 100%;
+  }
+  .yourEmail{
+    width: 100%;
+  }
+  .yourMessage{
+    width: 100%;
+  }
+  .gmap_canvas{
+  }
+  .getintouchRow{
+    display: block !important;
+  }
+  .mapouter{
+    width: 100% !important;
+  }
+  .gmap_canvas{
+    width: 100% !important;
+
+  }
+  .newsletterSection{
+    padding: 100px 0;
+  }
+  .FAQs{
+    padding: 0;
+  }
+  .investors{
+    grid-template-columns: auto;
+  }
+  .aboutusIMG{
+    width: 100%;
+    height: auto;
+  }
+  .aboutusSection{
+    padding-left: 0;
+  }
+  .features{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .amazingfeature{
+    font-size: 25px;
+  }
+  .keyfeature{
+    font-size: 17px;
+    letter-spacing: 2px;
+  }
+  .appButtons button{
+padding-left: 10px;
+padding-right: 10px;
+  }
+  .hero{
+    padding: 200px 0 0 0;
+  }
+  .navbar{
+    padding-left: 0;
+  }
+  .numbers{
+    padding: 0;
+  }
+  .testimonialWrapper{
+    padding-bottom: 30px;
+    display: block !important;
+  }
+  .heroHeading{
+    font-size: 25px;
+  }
+  .heroText{
+    font-size: 16px;
+  }
+  .aboutusText{
+    font-size: 15px;
+  }
+  .newsletterSection .col{
+    padding-bottom: 30px;
+  }
+  .aboutusRow{
+    display: block !important;
+  }
+  .investmentSectionRow{
+    display: block !important;
+  }
+  .newsletterRow{
+    display: block !important;
+  }
+  .FAQrow{
+    display: block !important;
+  }
+}
